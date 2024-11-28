@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Who's that Pokémon?</title>
+    
+    <!-- Farcaster Frame Meta Tags -->
+    <meta property="og:title" content="Who's that Pokémon?" />
+    <meta property="og:image" content="https://example.com/pokemon-frame.png" />
+    <meta name="fc:frame" content="
+      {
+        &quot;imageUrl&quot;: &quot;https://example.com/pokemon-frame.png&quot;,
+        &quot;button&quot;: {
+          &quot;title&quot;: &quot;Play Now&quot;,
+          &quot;action&quot;: {
+            &quot;type&quot;: &quot;launch_frame&quot;,
+            &quot;name&quot;: &quot;Who\u0027s that Pok\u00e9mon?&quot;,
+            &quot;url&quot;: &quot;https://example.com&quot;,
+            &quot;splashImageUrl&quot;: &quot;https://example.com/splash.png&quot;,
+            &quot;splashBackgroundColor&quot;: &quot;#0f172a&quot;
+          }
+        }
+      }
+    " />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
